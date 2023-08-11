@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recibido"
+    android:background="@drawable/fondo4"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_msj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amigo"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/txt_msj1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="italic"/>
+
+</LinearLayout>
